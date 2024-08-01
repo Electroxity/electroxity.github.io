@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div id="electroxity"></div>
+    
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    
+    <script type="text/javascript">
+        new Twitch.Embed("electroxity", {
+        width: 1000,
+        height: 500,
+        channel: "electroxity",
+        layout: "video-with-chat",
+        autoplay: false,
+      });
+    </script>
+  </body>
+</html>
